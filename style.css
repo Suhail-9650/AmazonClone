@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    /* background: green; */
+    overflow-x: hidden;
+}
+.navbar{
+    height: 70px;
+    background: black;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+   
+}
+.logo{
+    height: 100%;
+    width: 100px;
+    /* background: #000; */
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.deliver{
+    height: 100%;
+    width: 100px;
+    /* background: brown; */
+    display: flex;
+    
+}
+.icon{
+    width: 30px;
+    height: 100%;
+    /* background: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deliver .icon i{
+    color: white;
+}
+.india{
+    height: 100%;
+    width: 70px;
+    /* background: pink; */
+}
+.india h4{
+   padding-top: 5px; 
+   color: white;
+}
+.india span{
+    color: white;
+   font-size: x-large;
+}
+.search{
+    height: 80%;
+    width: 700px;
+    /* background:red; */
+    margin-top: 5px;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 5px;
+   
+}
+.all{
+    height: 100%;
+    width: 80px;
+    /* background: blue; */
+}
+.search .all p{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 5px;
+   
+}
+.search-panel{
+    height: 100%;
+   width: 680px;
+    /* background: violet; */
+}
+.search-panel input{
+    height: 100%;
+    width: 100%;
+    font-size: large;
+}
+.magnifier{
+    height: 100%;
+    width: 40px;
+    /* background: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.magnifier i{
+    color: white;
+    /* background: white; */
+    font-size: larger;
+}
+.hello{
+    height: 100%;
+    width: 150px;
+    /* background: red; */
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    color: white;
+}
+.hello span{
+    color: white;
+    padding-top: 5px;
+   
+}
+.returns{
+    height: 100%;
+    width: 100px;
+    /* background-color: red; */
+   padding-top: 5px;
+   color: white;
+}
+.cart{
+    height: 100%;
+    width: 150px;
+    /* background: aqua; */
+    display: flex;
+}
+.cart i{
+    color: white;
+    font-size: 40px;
+    padding-top: 2px;
+   
+}
+.cart p{
+    color: white;
+    padding-top: 10px;
+    font-size: 35px;
+    padding-left: 2px;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.orange-bor:hover{
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+
+/* section */
+.facility{
+    height: 100vh;
+    /* background: chocolate; */
+}
+.facility-item{
+    height: 50px;
+    background: brown;
+    display: flex;
+    gap: 20px;
+}
+.all{
+    height: 100%;
+    width: 50px;
+    /* background: orange; */
+    display: flex;
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+}
+.list{
+    height: 100%;
+    width: 700px;
+    /* background: aqua; */
+   
+   
+}
+.list-item{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+   padding-top: 15px;
+   color: white;
+   font-size: 18px;
+}
+.shops-deal{
+    height: 100%;
+    width: 600px;
+    /* background: blue; */
+    display: flex;
+    justify-content: end;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.shops-deal-item{
+    height: 100%;
+    width: 300px;
+    /* background: yellow; */
+    color: white;
+}
+/* 3rd row */
+.big-image{
+    height: 300px;
+    width: 100%;
+    /* background: orchid; */
+}
+.big-image img{
+    height: 100%;
+    width: 100%;
+}
+.para{
+    height: 30px;
+    width: 100%;
+    /* background: blue; */
+    position: relative;
+    bottom: 60px;
+    color: white;
+    padding-left: 20px;
+}
+.para a{
+    color: green;
+    padding-left: 20px;
+}
+/* 4th row */
+.box{
+    height: 100%;
+    /* width: 300px; */
+    /* background: green; */
+   
+}
+.small-box{
+    height: 350px;
+    /* background: yellow; */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.samll-box-content{
+    height: 100%;
+    width: 20%;
+    /* background: brown; */
+    margin-left: 15px;
+
+    
+}
+.samll-box-content h1{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.samll-box-content img{
+    height: 80%;
+    width: 250px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.samll-box-content p{
+    color: blue;
+    font-size: 20px;
+}
+.sec-box{
+    height: 350px;
+   /* background: aqua; */
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
